@@ -1,0 +1,294 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+.main-title {
+  color: white;
+  font-family: 'GraphikLCG-Medium' sans-serif;
+  margin-bottom: 30px
+
+}
+.main-download {
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+  margin-right: 2px;
+}
+.main-program {
+  padding: 20px;
+  color: white;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, alpha 1); /* не знаю почему не работает... */
+  margin-left: 2px;
+}
+
+.container{
+  width: 1170px;
+	margin: 0 auto;
+	padding-top: 30px;
+  padding-bottom: 30px;
+}
+.return {
+  background-image: url(/img/return.png);
+  padding-left: 25px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  margin-left: 15px;
+}
+.program-title_h1{
+	margin-top: 100px;
+	padding-left: 100px;
+	font-size: 48px;
+	color: #222020;
+}
+.p_text {
+	padding-left: 180px;
+	margin-bottom: 20px;
+}
+.program-mscript {
+	padding-left: 200px;
+  font-size: 18px;
+  float: left;
+}
+.program-title_h2 {
+	padding-left: 180px;
+	font-size: 36px;
+	color: #2f1ce4;
+	margin-top: 100px;
+  margin-bottom: 25px;
+}
+.program_mod-title_h2 {
+	padding-left: 180px;
+	font-size: 36px;
+	color: #2f1ce4;
+	margin-top: -50px;
+  margin-bottom: 35px;
+  margin-right: 155px;
+  float: right;
+}
+
+.img {
+	padding-left: 200px;
+	text-align: center;
+}
+
+.table{
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 59px;
+  border-collapse: collapse;
+  float: left;
+}
+.table_td, .table_th, .table_tr{
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.modules_container {
+  width: 1210px;
+	margin: 0 auto;
+}
+.modules_conteiner_content {
+  width: 1080px;
+	margin: 0 auto;
+}
+
+.logo {
+  font-size: 40px;
+  color: #222020;
+  margin-top: 57px;
+  margin-bottom: 61px;
+}
+.modules_return {
+  background-image: url(/img/return.png);
+  padding-left: 40px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  font-size: 18px;
+  color: #222020;
+}
+.modules_h1 {
+  font-size: 48px;
+  padding-top: 178px;
+  padding-left: 50px;
+  color: #222020;
+}
+.list {
+  padding: 0;
+  margin: 50;
+  list-style: none;
+  font-size: 0;
+}
+.modules_cont_img {
+  background-size: contain;
+  width: 480px;
+  height: 180px;
+}
+
+.child {
+  display: inline-block;
+  width: 480px;
+  min-height: 500px;
+  border: 1px solid rgb(255, 255, 255);
+  margin-right: 90px;
+  margin-bottom: 60px;
+  vertical-align: middle;
+  position: relative;
+  box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.31);
+
+}
+.modules_h2 {
+  padding-bottom: 20px;
+  margin: auto;
+  font-size: 36px;
+  line-height: 56px;
+  color: #2f1ce4;
+
+}
+.modules_mscript {
+  padding: initial;
+  font-size: 16px;
+  line-height: 30px;
+  list-style-type: none;
+  color: #222020;
+
+}
+
+.number {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 48px;
+  color: #eaeaea;
+}
+
+.parent {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.right {
+  margin-right: 0;
+}
+
+.btn-center {
+  text-align: center;
+
+}
+.modules_button {
+  padding: 40px 140px;
+  background-color: white;
+  border-radius: 2px 2px 2px 2px;
+  border: 3px solid #2f1ce4;
+  font-size: 18px;
+  color: #2f1ce4;
+  margin-top: 97px;
+
+}
+.body_img {
+  background-image: url(/img/1@2x.svg);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 525px;
+}
+
+.page_modules_mscript {
+
+  display: inline-block;
+  width: 320px;
+  min-height: 350px;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 200px;
+  margin-top: -100px;
+  vertical-align: middle;
+  position: relative;
+  box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.31);
+
+  /* font-size: 18px;
+  padding-left: 255px;
+  margin-top: 5px;
+  float: left; */
+}
+
+.page_mscript {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 90px;
+  font-size: 16px;
+  line-height: 30px;
+  list-style-type: none;
+  color: #222020;
+}
+.link_modules {
+  margin-right: 70px;
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 2px 2px 2px 2px;
+  border: 3px solid #2f1ce4;
+  font-size: 18px;
+  color: #2f1ce4;
+  float: right;
+  margin-top: 240px;
+}
+.modules_text_conteiner {
+  padding: 25px 53px 20px 50px;
+}
+
+
